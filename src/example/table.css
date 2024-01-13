@@ -1,0 +1,68 @@
+table {
+  border: 1px solid #ddd;
+  border-spacing: 0;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+th {
+  padding: 10px;
+}
+
+table thead th {
+  border-bottom: 1px solid #ddd;
+}
+
+table tbody tr td {
+  padding: 10px;
+  margin: 0;
+}
+
+table tbody tr td:nth-child(1) {
+  min-width: auto;
+}
+
+.myTable tbody tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.select_row {
+  background-color: rgb(240, 240, 240);
+}
+
+table tbody tr.disabled_row:hover {
+  background-color: transparent;
+  cursor: default;
+}
+
+.disabled_row {
+  color: rgb(199, 199, 199);
+}
+
+/* 두번째테이블  */
+.myTd {
+  background-color: rgba(129, 141, 165, 1);
+  color: white;
+}
+.myTr {
+  background-color: rgba(205, 208, 229, 1);
+}
+
+/* 컨텐츠설정부분 input설정들 */
+#input_mailType {
+  width: 100%;
+  border: 0px;
+}
+
+#input_mailTitle {
+  border: 0px;
+  width: 100%;
+}
+
+#input_reason {
+  width: 100%;
+  border: 0px;
+}

@@ -1,0 +1,14 @@
+{
+  "articles": [
+    {
+      "mailUid": 1,
+      "mailType": "문서 유형",
+      "mailTitle": "제목예시",
+      "ismailIUse": "Y",
+      "modificationDate": "2023-01-01T12:00:00Z",
+      "mailContent": "안녕하세요 ,\n\n이것은 예시 문서입니다",
+      "reason": "User Registration"
+    }
+  ]
+}
+
