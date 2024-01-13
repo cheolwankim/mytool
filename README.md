@@ -1,6 +1,20 @@
 # My Tool
 
-<details><summary>기능구현 및 오류</summary>
+## 💡 Introducing Project
+React를 이용해 구현하고 문서 관리를 위해서 만든 나만의 툴 입니다.<br>
+문서 작성, 삭제, 업데이트, 미리보기 및 엑셀파일 다운로드 기능을 사용할 수 있습니다.<br>
+<br>
+
+## 🛠 Using Skill
+
+
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">   <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">  
+<br>
+
+
+
+
+<details><summary>기능구현</summary>
 
 ##  구현화면
 
@@ -14,7 +28,6 @@
 메일 발송 제목 클릭시 내용보기
 ```
 
-※제목외 다른것 클릭시 빈페이지 출력됨
 
 
 ## 저장
@@ -40,7 +53,6 @@
 ```
 checkbox 클릭후 삭제하기 클릭시 해당하는 데이터 삭제
 ```
-※전체삭제 불가, 삭제 후 전체선택을 두 번 눌러서 초기화 해야 오류없이 다시 삭제가능
 
 ## 페이지네이션
 ```
@@ -59,9 +71,15 @@ checkbox 클릭후 삭제하기 클릭시 해당하는 데이터 삭제
 3. 업데이트 클릭
 ```
 
-※업데이트 이후 checkBox 전체선택을 두 번 눌러서 초기화 해야 오류없이 사용가능
-
 </details>
 
 
 
+## ⭐️ How To Use
+
+start:
+
+```sh
+npm install
+npm start
+```
